@@ -8,7 +8,7 @@ body {
     max-width: 100vw;
     min-height: 100vh;
     font-family: 'Comic Neue', cursive;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .titulo {
@@ -36,32 +36,38 @@ nav {
 }
 
 .container-logo {
-    width: 17%;
+    width: 35%;
     display: flex;
 }
 
-.container-logo-about{
-    display: flex;
-    width: 50%;
 
-}
-
-.container-logo img {
+.container-logo img, .container-logo-home img, .container-logo-rules img {
     width: 100%;
     height: auto;
 }
 
-.container-logo-about img{
-    width: 50%;
-    height: auto;
+.container-logo-home{
+    width: 20%;
 
 }
+
+.container-logo-rules{
+    width: 80%;
+}
+
+
+/* .container-logo-about img{
+    width: 20%;
+    height: auto;
+
+} */
 
 .main {
     display: flex;
+    width: 100%;
 }
 
-.text {
+.text, .text-rules {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
@@ -116,4 +122,65 @@ h2 {
     text-align: center;
     border: 1px solid black;
     padding: 5px 0px;
+}
+
+/* .text, .rules{
+    width: 60%;
+} */
+
+.sports{
+    margin: 15px;
+}
+
+.regulations{
+    margin: 15px;
+}
+
+.dimensions{
+    margin: 15px;
+}
+
+.competition{
+    margin: 15px;
+}
+
+.fields{
+    margin: 15px;
+}
+
+.letras{
+    list-style-type: lower-latin;
+}
+
+.allplay{
+    margin: 15px;
+}
+
+.circulo{
+    list-style-type: circle;
+    margin-bottom: 30px;
+}
+.p{
+    margin: 15px;
+    text-decoration: underline;
+    font-size: 18px;
+    font-style: italic;
+}
+
+table, tr, th, td{
+    border: solid 1px black;
+    padding: 12px;
+    background-color: rgba(235, 226, 62, 0.575);
+}
+
+.extra{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 30px;
 }

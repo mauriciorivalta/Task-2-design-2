@@ -12,7 +12,7 @@ body {
 }
 
 .titulo {
-    font-size: 55px;
+    font-size: 45px;
 }
 
 .container-image {
@@ -55,12 +55,6 @@ nav {
     width: 80%;
 }
 
-
-/* .container-logo-about img{
-    width: 20%;
-    height: auto;
-
-} */
 
 .main {
     display: flex;
@@ -124,10 +118,6 @@ h2 {
     padding: 5px 0px;
 }
 
-/* .text, .rules{
-    width: 60%;
-} */
-
 .sports{
     margin: 15px;
 }
@@ -170,7 +160,7 @@ h2 {
 table, tr, th, td{
     border: solid 1px black;
     padding: 12px;
-    background-color: rgba(235, 226, 62, 0.575);
+    /* background-color: rgba(235, 226, 62, 0.575); */
 }
 
 .extra{
@@ -183,4 +173,104 @@ table, tr, th, td{
     justify-content: space-between;
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+_______________________________ form_______________________
+
+ .contenedor-form{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+
+ }
+.tittleform{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+ .container-logo-form{
+    width: 50%;
+    margin-top: 50px;
+    
+ }
+
+.container-logo-form img{
+    width: 100%;
+    height: auto;
+}
+.name{
+    margin: 10px;
+
+}
+
+.lastname{
+    margin-left: 35px;
+}
+
+.zip{
+    margin-left: 155px;
+}
+
+.gend{
+    margin-left: 12px;
+}
+.Street{
+    width: 75%;
+    margin: 10px;
+}
+
+.City{
+    width: 75%;
+    margin: 10px; 
+}
+ .Birth{
+    width: 75%;
+    margin: 10px; 
+ }
+
+ .Grade{
+    width: 75%;
+    margin: 10px; 
+ }
+ .elementary{
+    margin: 13px;
+
+ }
+ .closest{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .info{
+    display: flex;
+    flex-direction: column;
+ }
+
+.container-second-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-third-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container-fourth-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.firma{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.firm{
+    border: none;
+    border-bottom: 1px solid black;
 }
